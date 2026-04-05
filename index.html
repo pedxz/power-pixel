@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Pixel - Comunidade de Programação, IA e Servidores</title>
+  <meta name="description" content="Power Pixel é uma comunidade de programação, inteligência artificial e desenvolvimento de servidores de jogos. Explora o fórum, publicações e recursos técnicos.">
+  <meta name="theme-color" content="#0d6efd">
+
+  <meta property="og:title" content="Power Pixel - Comunidade de Programação, IA e Servidores">
+  <meta property="og:description" content="Comunidade de programação, inteligência artificial e desenvolvimento de servidores de jogos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.power-pixel.net">
+  <meta property="og:image" content="assets/social-preview.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Power Pixel - Comunidade de Programação, IA e Servidores">
+  <meta name="twitter:description" content="Comunidade de programação, inteligência artificial e desenvolvimento de servidores de jogos.">
+  <meta name="twitter:image" content="assets/social-preview.png">
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-soft: #111827;
+      --card: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.12);
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --primary: #60a5fa;
+      --primary-strong: #3b82f6;
+      --max: 1100px;
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(59,130,246,0.18), transparent 30%),
+        linear-gradient(180deg, #0b1220, #0f172a 35%, #111827);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(100% - 2rem, var(--max));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 2rem 0 1rem;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .hero {
+      padding: 4rem 0 3rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 1.1;
+      margin: 0 0 1rem;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: 0 auto 1.5rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 160px;
+      padding: .9rem 1.2rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: #fff;
+      font-weight: 600;
+      transition: .2s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      background: rgba(255,255,255,0.09);
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--primary-strong);
+      border-color: var(--primary-strong);
+    }
+
+    .btn-primary:hover {
+      background: #2563eb;
+    }
+
+    .section {
+      padding: 2rem 0;
+    }
+
+    .section h2 {
+      font-size: clamp(1.4rem, 2vw, 2rem);
+      margin: 0 0 .75rem;
+    }
+
+    .section-intro {
+      color: var(--muted);
+      margin: 0 0 1.5rem;
+      max-width: 720px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      backdrop-filter: blur(8px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: .5rem;
+      font-size: 1.1rem;
+    }
+
+    .card p,
+    .card li {
+      color: var(--muted);
+    }
+
+    .card ul {
+      margin: .75rem 0 0;
+      padding-left: 1.1rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .stat {
+      text-align: center;
+      padding: 1rem;
+      border-radius: var(--radius);
+      background: var(--card);
+      border: 1px solid var(--border);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    footer {
+      padding: 3rem 0;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 900px) {
+      .grid-3,
+      .grid-2,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Power Pixel">
+        <span>Power Pixel</span>
+      </div>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="https://www.power-pixel.net">Fórum</a>
+        <a href="https://www.power-pixel.net/publi">Publicações</a>
+        <a href="https://www.power-pixel.net/register">Registo</a>
+        <a href="https://discord.gg/Ugf2y64">Discord</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Comunidade de programação, IA e servidores de jogos</h1>
+        <p>
+          O Power Pixel é um espaço focado em programação, inteligência artificial e desenvolvimento de servidores de jogos, com tutoriais, publicações, recursos técnicos e uma comunidade ativa.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="https://www.power-pixel.net/register">Criar conta</a>
+          <a class="btn" href="https://www.power-pixel.net/publi">Explorar publicações</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>O que é o Power Pixel</h2>
+        <p class="section-intro">
+          O Power Pixel é uma comunidade tecnológica criada para reunir iniciantes, entusiastas e desenvolvedores experientes num ambiente organizado, colaborativo e focado em aprendizagem contínua.
+        </p>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Programação</h3>
+            <p>Discussões, dúvidas, códigos, tutoriais e recursos em várias linguagens como JavaScript, Python e PHP.</p>
+          </article>
+
+          <article class="card">
+            <h3>Inteligência Artificial</h3>
+            <p>Guias, automação, prompts, ferramentas e conteúdos focados em IA aplicada ao desenvolvimento e produtividade.</p>
+          </article>
+
+          <article class="card">
+            <h3>Servidores de jogos</h3>
+            <p>Conteúdos sobre emuladores, CMS, bases de dados, downloads e estruturação de servidores e projetos online.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Áreas da comunidade</h2>
+        <p class="section-intro">
+          O fórum está organizado para facilitar a navegação, melhorar a retenção e tornar o conteúdo mais relevante para utilizadores e motores de pesquisa.
+        </p>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>Tutoriais e guias</h3>
+            <p>Conteúdos passo a passo para ajudar membros a aprender, configurar ferramentas, iniciar projetos e evoluir tecnicamente.</p>
+          </article>
+
+          <article class="card">
+            <h3>Projetos e partilha</h3>
+            <p>Espaço para apresentar trabalhos, partilhar recursos, discutir soluções e colaborar com outros membros da comunidade.</p>
+          </article>
+
+          <article class="card">
+            <h3>Publicações</h3>
+            <p>Artigos otimizados para leitura e SEO, incluindo conteúdos introdutórios, técnicos e informativos sobre o ecossistema Power Pixel.</p>
+          </article>
+
+          <article class="card">
+            <h3>Ranks e progressão</h3>
+            <p>Sistema de ranks por mensagens e grupos especiais, incentivando participação, reconhecimento e crescimento dentro da comunidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Porque existe</h2>
+        <p class="section-intro">
+          O objetivo do Power Pixel é criar uma comunidade ativa onde qualquer pessoa possa aprender, desenvolver, partilhar conhecimento e evoluir em áreas técnicas e criativas.
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <strong>Fórum</strong>
+            <span>Discussão e suporte</span>
+          </div>
+          <div class="stat">
+            <strong>Guias</strong>
+            <span>Aprendizagem prática</span>
+          </div>
+          <div class="stat">
+            <strong>IA</strong>
+            <span>Exploração e automação</span>
+          </div>
+          <div class="stat">
+            <strong>Projetos</strong>
+            <span>Partilha técnica</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Junta-te à comunidade</h2>
+        <p class="section-intro">
+          Se procuras um espaço para aprender programação, explorar inteligência artificial, desenvolver projetos e participar numa comunidade ativa, o Power Pixel é o lugar certo.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="https://www.power-pixel.net/register">Criar conta</a>
+          <a class="btn" href="https://www.power-pixel.net/forum">Entrar no fórum</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://www.power-pixel.net">Fórum</a>
+        <a href="https://www.power-pixel.net/publi">Publicações</a>
+        <a href="https://discord.gg/Ugf2y64">Discord</a>
+      </div>
+      <p>© 2010–2026 Power Pixel. Comunidade de programação, inteligência artificial e servidores de jogos.</p>
+    </div>
+  </footer>
+</body>
+</html>
