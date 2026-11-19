@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Óculos Escuros">
+  <defs>
+    <linearGradient id="oculos-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3abc4" stop-opacity=".16"/><stop offset="1" stop-color="#7d86a3" stop-opacity=".24"/></linearGradient>
+    <linearGradient id="oculos-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0a93b" stop-opacity=".95"/><stop offset=".5" stop-color="#c98a1c" stop-opacity=".45"/><stop offset="1" stop-color="#e0a93b" stop-opacity=".8"/></linearGradient>
+    <radialGradient id="oculos-glow" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#6366f1" stop-opacity=".28"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <linearGradient id="oculos-shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".11"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="oculos-g" gradientUnits="userSpaceOnUse" x1="6" y1="20" x2="58" y2="36"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#oculos-tile)"/>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#oculos-glow)"/>
+  <path d="M20 2h24a18 18 0 0 1 18 18v6H2v-6A18 18 0 0 1 20 2z" fill="url(#oculos-shine)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="17.5" fill="none" stroke="url(#oculos-edge)" stroke-width="1.4"/>
+  <g fill="#8b93ad"><circle cx="13" cy="15" r="1" opacity=".7"/><circle cx="51" cy="50" r=".9" opacity=".6"/></g>
+  <g fill="none" stroke="url(#oculos-g)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 22c-2.4 3.2-2.4 9.8 0 13"/>
+    <path d="M15.5 32h4.5"/>
+    <path d="M27.5 22c2.4 3.2 2.4 9.8 0 13"/>
+    <path d="M30.5 25.5l3.5 3-3.5 3"/>
+    <path d="M37 25h2.5v3"/>
+  </g>
+  <g fill="url(#oculos-g)"><circle cx="13" cy="28" r="1.7"/><circle cx="22.5" cy="28" r="1.7"/><rect x="41" y="24" width="6" height="5.5" rx="1.2"/><rect x="51" y="24" width="6" height="5.5" rx="1.2"/></g>
+  <path d="M47 26.5h4" stroke="url(#oculos-g)" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#e0a93b">
+    <path d="M32 47.5l1 2.3 2.3 1-2.3 1-1 2.3-1-2.3-2.3-1 2.3-1z"/>
+    <path d="M22 49l.6 1.4 1.4.6-1.4.6-.6 1.4-.6-1.4-1.4-.6 1.4-.6z" opacity=".75"/>
+    <path d="M42 49l.6 1.4 1.4.6-1.4.6-.6 1.4-.6-1.4-1.4-.6 1.4-.6z" opacity=".75"/>
+  </g>
+</svg>

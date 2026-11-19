@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="16 Anos de Power Pixel">
+  <defs>
+    <linearGradient id="anos16-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3abc4" stop-opacity=".16"/><stop offset="1" stop-color="#7d86a3" stop-opacity=".24"/></linearGradient>
+    <linearGradient id="anos16-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0a93b" stop-opacity=".95"/><stop offset=".5" stop-color="#c98a1c" stop-opacity=".45"/><stop offset="1" stop-color="#e0a93b" stop-opacity=".8"/></linearGradient>
+    <radialGradient id="anos16-glow" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#f59e0b" stop-opacity=".28"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="anos16-shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".11"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="anos16-g" gradientUnits="userSpaceOnUse" x1="20" y1="16" x2="46" y2="48"><stop offset="0" stop-color="#eab308"/><stop offset="1" stop-color="#b45309"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#anos16-tile)"/>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#anos16-glow)"/>
+  <path d="M20 2h24a18 18 0 0 1 18 18v6H2v-6A18 18 0 0 1 20 2z" fill="url(#anos16-shine)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="17.5" fill="none" stroke="url(#anos16-edge)" stroke-width="1.4"/>
+  <g>
+    <rect x="13" y="16" width="3" height="1.6" rx=".8" fill="#3b82f6" transform="rotate(-30 14.5 16.8)"/>
+    <rect x="48" y="15" width="3" height="1.6" rx=".8" fill="#ec4899" transform="rotate(35 49.5 15.8)"/>
+    <rect x="12" y="44" width="3" height="1.6" rx=".8" fill="#14b8a6" transform="rotate(25 13.5 44.8)"/>
+    <rect x="49" y="45" width="3" height="1.6" rx=".8" fill="#8b5cf6" transform="rotate(-20 50.5 45.8)"/>
+    <circle cx="17" cy="38" r="1.1" fill="#f59e0b"/>
+    <circle cx="47" cy="34" r="1.1" fill="#3b82f6"/>
+  </g>
+  <g fill="none" stroke="url(#anos16-g)" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 23l5-4v26"/>
+    <path d="M44 19.5c-5.4.4-9 5.4-9 13.5 0 7 3 12 8 12s8-3.6 8-8.4-3.2-8.2-7.6-8.2c-4 0-6.8 2.6-8 6"/>
+  </g>
+</svg>
