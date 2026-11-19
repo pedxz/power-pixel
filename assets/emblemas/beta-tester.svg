@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Beta Tester">
+  <defs>
+    <linearGradient id="beta-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3abc4" stop-opacity=".16"/><stop offset="1" stop-color="#7d86a3" stop-opacity=".24"/></linearGradient>
+    <linearGradient id="beta-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0a93b" stop-opacity=".95"/><stop offset=".5" stop-color="#c98a1c" stop-opacity=".45"/><stop offset="1" stop-color="#e0a93b" stop-opacity=".8"/></linearGradient>
+    <radialGradient id="beta-glow" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#14b8a6" stop-opacity=".28"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="beta-shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".11"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="beta-glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#64748b"/><stop offset="1" stop-color="#475569"/></linearGradient>
+    <linearGradient id="beta-liquid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10b981"/><stop offset="1" stop-color="#0e7490"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#beta-tile)"/>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#beta-glow)"/>
+  <path d="M20 2h24a18 18 0 0 1 18 18v6H2v-6A18 18 0 0 1 20 2z" fill="url(#beta-shine)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="17.5" fill="none" stroke="url(#beta-edge)" stroke-width="1.4"/>
+  <g fill="#8b93ad"><circle cx="13" cy="15" r="1" opacity=".7"/><circle cx="51" cy="50" r=".9" opacity=".6"/></g>
+  <path d="M27 31.5L18.5 45a3 3 0 0 0 2.6 4.5h21.8a3 3 0 0 0 2.6-4.5L37 31.5z" fill="url(#beta-liquid)"/>
+  <path d="M27 15v13.5L16.2 45.6a4.4 4.4 0 0 0 3.8 6.4h24a4.4 4.4 0 0 0 3.8-6.4L37 28.5V15" fill="none" stroke="url(#beta-glass)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24.5 15h15" stroke="url(#beta-glass)" stroke-width="3.2" stroke-linecap="round"/>
+  <g fill="#fff" fill-opacity=".75"><circle cx="29" cy="42" r="1.8"/><circle cx="35" cy="38" r="1.2"/><circle cx="33" cy="45.5" r="1"/></g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Mundo de Blocos">
+  <defs>
+    <linearGradient id="blocos-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3abc4" stop-opacity=".16"/><stop offset="1" stop-color="#7d86a3" stop-opacity=".24"/></linearGradient>
+    <linearGradient id="blocos-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b93ad" stop-opacity=".6"/><stop offset=".5" stop-color="#8b93ad" stop-opacity=".2"/><stop offset="1" stop-color="#8b93ad" stop-opacity=".4"/></linearGradient>
+    <radialGradient id="blocos-glow" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#22c55e" stop-opacity=".28"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="blocos-shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".11"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="blocos-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4ade80"/><stop offset="1" stop-color="#15803d"/></linearGradient>
+    <linearGradient id="blocos-l" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a16207"/><stop offset="1" stop-color="#78350f"/></linearGradient>
+    <linearGradient id="blocos-r" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#854d0e"/><stop offset="1" stop-color="#5c2d0b"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#blocos-tile)"/>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#blocos-glow)"/>
+  <path d="M20 2h24a18 18 0 0 1 18 18v6H2v-6A18 18 0 0 1 20 2z" fill="url(#blocos-shine)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="17.5" fill="none" stroke="url(#blocos-edge)" stroke-width="1"/>
+  <g fill="#8b93ad"><circle cx="13" cy="15" r="1" opacity=".7"/><circle cx="51" cy="50" r=".9" opacity=".6"/></g>
+  <path d="M32 15l16 8.5-16 8.5-16-8.5z" fill="url(#blocos-top)"/>
+  <path d="M16 23.5l16 8.5v18l-16-8.5z" fill="url(#blocos-l)"/>
+  <path d="M48 23.5l-16 8.5v18l16-8.5z" fill="url(#blocos-r)"/>
+  <path d="M16 23.5l16 8.5 16-8.5" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1" stroke-linejoin="round"/>
+</svg>
