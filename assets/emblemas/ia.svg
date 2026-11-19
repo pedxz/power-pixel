@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Inteligência Artificial">
   <defs>
-    <linearGradient id="ia-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2f4a" stop-opacity=".92"/><stop offset="1" stop-color="#141826" stop-opacity=".92"/></linearGradient>
-    <linearGradient id="ia-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".38"/><stop offset=".5" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity=".18"/></linearGradient>
-    <radialGradient id="ia-glow" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#b05cff" stop-opacity=".5"/><stop offset="1" stop-color="#b05cff" stop-opacity="0"/></radialGradient>
-    <linearGradient id="ia-shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="ia-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8ad8"/><stop offset="1" stop-color="#7c5cff"/></linearGradient>
+    <linearGradient id="ia-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3abc4" stop-opacity=".16"/><stop offset="1" stop-color="#7d86a3" stop-opacity=".24"/></linearGradient>
+    <linearGradient id="ia-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b93ad" stop-opacity=".6"/><stop offset=".5" stop-color="#8b93ad" stop-opacity=".2"/><stop offset="1" stop-color="#8b93ad" stop-opacity=".4"/></linearGradient>
+    <radialGradient id="ia-glow" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#b05cff" stop-opacity="0.28"/><stop offset="1" stop-color="#b05cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ia-shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.11"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ia-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff1ab2"/><stop offset="1" stop-color="#471aff"/></linearGradient>
   </defs>
   <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#ia-tile)"/>
   <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#ia-glow)"/>
   <path d="M20 2h24a18 18 0 0 1 18 18v6H2v-6A18 18 0 0 1 20 2z" fill="url(#ia-shine)"/>
   <rect x="2.5" y="2.5" width="59" height="59" rx="17.5" fill="none" stroke="url(#ia-edge)"/>
-  <g fill="#fff"><circle cx="13" cy="15" r="1" opacity=".7"/><circle cx="51" cy="50" r=".9" opacity=".6"/></g>
+  <g fill="#8b93ad"><circle cx="13" cy="15" r="1" opacity=".7"/><circle cx="51" cy="50" r=".9" opacity=".6"/></g>
   <g stroke="#fff" stroke-opacity=".35" stroke-width="1.4"><path d="M32 32L16 20M32 32l17-11M32 32l-15 14M32 32l16 13"/></g>
   <g fill="#fff" fill-opacity=".9"><circle cx="16" cy="20" r="2.6"/><circle cx="49" cy="21" r="2.6"/><circle cx="17" cy="46" r="2.6"/><circle cx="48" cy="45" r="2.6"/></g>
   <path d="M32 16c1.6 8.4 4.8 11.6 13.2 13.2C36.8 30.8 33.6 34 32 42.4 30.4 34 27.2 30.8 18.8 29.2 27.2 27.6 30.4 24.4 32 16z" fill="url(#ia-g)"/>
