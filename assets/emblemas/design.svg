@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Design">
+  <defs>
+    <linearGradient id="design-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3abc4" stop-opacity=".16"/><stop offset="1" stop-color="#7d86a3" stop-opacity=".24"/></linearGradient>
+    <linearGradient id="design-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b93ad" stop-opacity=".6"/><stop offset=".5" stop-color="#8b93ad" stop-opacity=".2"/><stop offset="1" stop-color="#8b93ad" stop-opacity=".4"/></linearGradient>
+    <radialGradient id="design-glow" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#ec4899" stop-opacity=".28"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+    <linearGradient id="design-shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".11"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="design-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#design-tile)"/>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#design-glow)"/>
+  <path d="M20 2h24a18 18 0 0 1 18 18v6H2v-6A18 18 0 0 1 20 2z" fill="url(#design-shine)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="17.5" fill="none" stroke="url(#design-edge)" stroke-width="1"/>
+  <g fill="#8b93ad"><circle cx="13" cy="15" r="1" opacity=".7"/><circle cx="51" cy="50" r=".9" opacity=".6"/></g>
+  <path d="M14 46C22 46 24 18 50 18" fill="none" stroke="#8b93ad" stroke-opacity=".7" stroke-width="1.6" stroke-dasharray="2.5 2.5"/>
+  <path d="M32 14l10 12-6 18h-8l-6-18z" fill="url(#design-g)"/>
+  <path d="M32 14v17" stroke="#1a1d29" stroke-opacity=".45" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="32" cy="31.5" r="3" fill="#1a1d29" fill-opacity=".45"/>
+  <rect x="27" y="44" width="10" height="5" rx="1.6" fill="url(#design-g)"/>
+  <g fill="#fff" stroke="#8b93ad" stroke-width="1.2"><rect x="11.5" y="43.5" width="5" height="5" rx="1"/><rect x="47.5" y="15.5" width="5" height="5" rx="1"/></g>
+</svg>

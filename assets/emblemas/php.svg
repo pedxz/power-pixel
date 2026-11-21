@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="PHP">
+  <defs>
+    <linearGradient id="php-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3abc4" stop-opacity=".16"/><stop offset="1" stop-color="#7d86a3" stop-opacity=".24"/></linearGradient>
+    <linearGradient id="php-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b93ad" stop-opacity=".6"/><stop offset=".5" stop-color="#8b93ad" stop-opacity=".2"/><stop offset="1" stop-color="#8b93ad" stop-opacity=".4"/></linearGradient>
+    <radialGradient id="php-glow" cx=".5" cy=".55" r=".55"><stop offset="0" stop-color="#6366f1" stop-opacity=".28"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <linearGradient id="php-shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".11"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="php-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b8fd8"/><stop offset="1" stop-color="#4f5b93"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#php-tile)"/>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#php-glow)"/>
+  <path d="M20 2h24a18 18 0 0 1 18 18v6H2v-6A18 18 0 0 1 20 2z" fill="url(#php-shine)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="17.5" fill="none" stroke="url(#php-edge)" stroke-width="1"/>
+  <g fill="#8b93ad"><circle cx="13" cy="15" r="1" opacity=".7"/><circle cx="51" cy="50" r=".9" opacity=".6"/></g>
+  <ellipse cx="32" cy="32" rx="22" ry="13" fill="url(#php-g)"/>
+  <ellipse cx="32" cy="32" rx="20.5" ry="11.5" fill="none" stroke="#fff" stroke-opacity=".25"/>
+  <g fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17.5 38l2.6-12h3.6a3 3 0 0 1 0 6h-4.9"/>
+    <path d="M30 23.5l-3.1 14.5M28.7 29.5h4.6a2.2 2.2 0 0 1 2.1 2.7L34.2 38"/>
+    <path d="M38.5 38l2.6-12h3.6a3 3 0 0 1 0 6h-4.9"/>
+  </g>
+</svg>
